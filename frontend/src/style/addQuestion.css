@@ -1,0 +1,154 @@
+.add-question-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffaf61;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.add-question-title {
+  font-size: 2rem;
+  color: #c3ff93;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-question-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-question-input,
+.add-question-textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ff70ab;
+  border-radius: 5px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.add-question-input:focus,
+.add-question-textarea:focus {
+  border-color: #ffdb5c;
+  box-shadow: 0 0 5px rgba(255, 219, 92, 0.5);
+  outline: none;
+}
+
+.add-question-textarea {
+  height: 80px; 
+  resize: vertical; 
+}
+
+.add-question-btn {
+  padding: 10px;
+  background-color: #c3ff93;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-question-btn:hover {
+  background-color: #ff70ab;
+}
+.add-question-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #686363;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-question-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.add-question-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-question-input,
+.add-question-textarea,
+.add-question-select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-question-textarea {
+  height: 100px;
+  resize: none;
+}
+
+.add-question-select {
+  height: 40px;
+}
+
+.add-question-btn {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #ff70ab; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-question-btn:hover {
+  background-color: #ffaf61; 
+}
+
+.add-question-btn {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #ff70ab;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-question-btn:hover {
+  background-color: #ffaf61;
+}
+
+.admin-logout-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.admin-logout-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ffdb5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-logout-btn:hover {
+  background-color: #ffaf61;
+}
+
+.admin-login-link {
+  font-size: 1rem;
+  color: #ff70ab;
+  text-decoration: none;
+}
+
+.admin-login-link:hover {
+  text-decoration: underline;
+}
